@@ -17,6 +17,6 @@
             }
             if ($_GET["page"]=="Info")
             {
-                echo "";
+                echo "Informationen weiter unten... Tipp: steht im footer";
             }
             ?>
