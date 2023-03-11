@@ -1,0 +1,80 @@
+body {
+    font-family: "Montserrat", serif;
+    margin:10;
+    width:100%;
+}
+.main {
+    display: flex;
+}
+.menu {
+    width:10%;
+    background-color: slategray;
+    padding-top:50px;
+    height:50vh;
+}
+.menu a {
+    display:block;
+    text-decoration:none;
+    color:white;
+    padding:12px;
+    display:flex;
+    align-items:center;
+
+}
+.menu a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.content {
+    height:800px;
+    width:100%;
+    align-items:center;
+    position:center;
+    display:start;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin:auto;
+    border-radius:10px;
+    display:top;
+    vertical-align: top;
+    margin-left: 10px;
+    
+}
+.menubar {
+    background-color:white;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;s
+    height:90px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+    padding-left 50px;
+    justify-content:space-between
+
+}
+.me {
+    border-radius: 100%;
+    background-color: whitesmoke;
+    padding: 16px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 120px;
+    position:absolute;
+}
+.footer {
+    position: flex;
+    background-color:slategrey;
+    width: 99%;
+    height: 100px;
+    justify-content: center;
+}
+.footertext {
+    color: rgb(78, 244, 0);
+    position: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    size-adjust: 100%;
+}
