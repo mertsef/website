@@ -7,6 +7,11 @@
             {
                 echo "sieht man das?";
             }
+            if ($_GET["page"]=="Anmeldung")
+            {
+                echo "Anmelden";
+                
+            }
             if ($_GET["page"]=="Menü")
             {
                 echo "das sollte hoffentlich das Menü sein?";

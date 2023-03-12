@@ -11,19 +11,16 @@
 </head>
 <body>
         <div class="menubar">
-            <h1>sieht man das?</h1>
-            <div class="button">
-            <button id="count">moin</button>
-            <script src="start.js"></script>
-            </div>
-            <div>
-                <div class="me">.web
-                    <div class="date-time">
-                <button onclick="this.innerHTML = Date()">Uhrzeit</button>
-                </div> 
-            </div>
+            <h1>sieht man das?</h1> 
+            <script src="sweetalert2.all.min.js"></script>
+            <script src="swal.js"></script>
+                <div class="me">.web</div> 
                 <div class="menu">
                 <a href="index.php?page=Start">Start</a> 
+                <a href="index.php?page=Anmelden">Anmelden</a>
+                <div class="login">
+                <button class="login">Login</button>
+                </div>
                 <a href="index.php?page=Menü">Menü</a> 
                 <a href="index.php?page=Auswahl">Auswahl</a> 
                 <a href="index.php?page=Info">Info</a>
