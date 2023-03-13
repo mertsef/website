@@ -30,7 +30,7 @@ body {
     margin:auto;
     border-radius:10px;
     top:0px;
-    margin-top:15%;
+    position:middle;
     margin-left: 5%;
 }
 .menubar {
@@ -59,7 +59,7 @@ body {
     position: flex;
     background-color:slategrey;
     width: 100%;
-    height: 100px;
+    height: 60px;
     justify-content: center;
     margin-top: 20%;
     position: sticky;

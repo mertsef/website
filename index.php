@@ -8,32 +8,32 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/bulma.css">
-        <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
         <div class="menubar">
             <h1>sieht man das?</h1>
-        <a class="button is-success">
-            abcd
-        </a>
-            <div>
+        </div>
+        <div class="box is-danger">
+            Site still in progress. 
+        </div>
                 <div class="me">.web
             </div>
-                <div class="menu">
-                <a href="index.php?page=Anmelden">Anmelden</a>
-                <a href="index.php?page=Start">Start</a> |
-                <a href="index.php?page=Menü">Menü</a> |
-                <a href="index.php?page=Auswahl">Auswahl</a> |
-                <a href="index.php?page=Info">Info</a>
+            <<div class="columns">
+                <div class="column is-one-fifth"><a href="index.php?page=Anmelden">Anmelden</a></div>
+                <div class="column is-one-fifth"><a href="index.php?page=Info">Info</a></div>
+                <div class="column is-one-fifth"><a href="index.php?page=Menü">Menü</a></div>
+                </div>
             </div>
     <div class="content">
             <?php include __DIR__."/content.php" ?>
 </div>
-            <div class="footer">
-                <div class="footertext">
-                TEST FOOTER    
-                <?php include __DIR__."/footer.php" ?>
-</div>
-</div>
+        <footer class="footer">
+    <div class="content has-text-centered">
+        <p>
+        <strong>Website</strong> by <a href="https://github.com/mertsef/website">Mert</a>.
+        </p>
+        </div>
+        </footer>
+    </div>
         </body>
 </html>
