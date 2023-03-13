@@ -8,14 +8,23 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/bulma.css">
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        </a>
 </head>
 <body>
+
+        
         <div class="menubar">
             <h1>sieht man das?</h1>
         </div>
-        <div class="box is-danger">
-            Site still in progress. 
-        </div>
+        <div class="notification is-danger">
+            <div class="text">
+                Site still in progress.</div>
+        
+            </div>
                 <div class="me">.web
             </div>
             <div class="columns">
