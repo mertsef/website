@@ -18,7 +18,7 @@
         </div>
                 <div class="me">.web
             </div>
-            <<div class="columns">
+            <div class="columns">
                 <div class="column is-one-fifth"><a href="index.php?page=Anmelden">Anmelden</a></div>
                 <div class="column is-one-fifth"><a href="index.php?page=Info">Info</a></div>
                 <div class="column is-one-fifth"><a href="index.php?page=Menü">Menü</a></div>
